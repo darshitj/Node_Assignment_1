@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information Form</title>
+</head>
+<body>
+    <h2>Student Information</h2>
+    <form action="/insert" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="rollno">Roll Number:</label>
+        <input type="text" id="rollno" name="rollno" required><br><br>
+
+        <label for="marks">Marks:</label>
+        <input type="number" id="marks" name="marks" min="0" max="100" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
